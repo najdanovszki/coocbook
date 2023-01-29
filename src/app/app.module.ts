@@ -7,6 +7,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { RecepiesComponent } from './recepies/recepies.component';
 import { IngridientsComponent } from './ingridients/ingridients.component';
+import { JumbotronComponent } from './jumbotron/jumbotron.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { IngridientsComponent } from './ingridients/ingridients.component';
     NavbarComponent,
     FooterComponent,
     RecepiesComponent,
-    IngridientsComponent
+    IngridientsComponent,
+    JumbotronComponent
   ],
   imports: [
     BrowserModule,

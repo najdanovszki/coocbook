@@ -4,6 +4,7 @@ import { IngridientsComponent } from './ingridients/ingridients.component';
 import { RecepiesComponent } from './recepies/recepies.component';
 
 const routes: Routes = [
+  {path: '', component: RecepiesComponent},
   {path: 'recepies', component: RecepiesComponent},
   {path: 'ingridients', component: IngridientsComponent}
 ];
